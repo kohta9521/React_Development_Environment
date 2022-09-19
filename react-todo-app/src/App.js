@@ -3,7 +3,7 @@ import TodoList from "./TodoList";
 
 function App() {
 
-  const [todos, setTodos ] = useState(["Todo1", "Todo2"]);
+  const [todos, setTodos ] = useState([{id: 1, name: "Todo1", completed:  false}]);
 
   return (
     <div>
