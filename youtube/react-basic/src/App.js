@@ -1,26 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Article from './Article';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          YouTube教材でreactの勉強！
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Article
+            title={'youtube教材 React 入門編'}
+            content='今日のトピックはpropsについて!!(データの受け渡しについても追加)'
+        />
+                <Article
+            title={'youtube教材 React 初級編'}
+            content='今日のトピックはpropsについて!!(データの受け渡しについても追加)'
+        />
+                <Article
+            title={'youtube教材 React 中級編'}
+            content='今日のトピックはpropsについて!!(データの受け渡しについても追加)'
+        />
+                <Article
+            title={'youtube教材 React 上級編'}
+            content='今日のトピックはpropsについて!!(データの受け渡しについても追加)'
+        />
     </div>
   );
 }
