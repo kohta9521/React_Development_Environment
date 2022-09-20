@@ -10,7 +10,7 @@ header {
   align-items: center;
   background-color:rgb(112, 112, 112);
   color: white;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 10;
 }
