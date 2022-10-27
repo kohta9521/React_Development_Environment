@@ -1,19 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header>
             <div className='logo'>
-                <h3>ポートフォリオ</h3>
+                <h3>K</h3>
             </div>
 
             <nav>
                 <ul>
                     <li>
-                        <a href="#">ホーム</a>
+                        <Link to="/">ホーム</Link>
                     </li>
                     <li>
-                        <a href="#">ブログ</a>
+                        <Link to="/blog">ブログ</Link>
                     </li>
                     <li>
                         <a href="#">SNS</a>
