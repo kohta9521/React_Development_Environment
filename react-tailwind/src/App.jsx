@@ -4,8 +4,8 @@ import './App.css'
 
 function App() {
   return (
-    <header className='text-gray-700'>
-      <div>
+    <header className='text-gray-700 border-b border-gray-200'>
+      <div className='container flex'>
         <a href="#">
           <span>Kohta Code</span>
         </a>
