@@ -45,3 +45,12 @@ val4.name= "はああ";
 val4.address = "Hiroshima";
 console.log(val4);
 
+
+const val5 = ['dog', 'cat'];
+console.log(val5);
+val5[0] = 'bird';
+console.log(val5);
+
+val5.push('monkey');
+console.log(val5);
+
