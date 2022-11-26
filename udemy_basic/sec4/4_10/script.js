@@ -54,3 +54,9 @@ console.log(val5);
 val5.push('monkey');
 console.log(val5);
 
+const name = "光太";
+const age = 19;
+
+// テンプレート文字列を用いた
+const message2 = `私の名前は${name}です。年齢は${age}です。`;
+console.log(message2);
