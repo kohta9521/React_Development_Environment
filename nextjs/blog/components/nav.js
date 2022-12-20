@@ -7,17 +7,17 @@ export default function Nav() {
             <ul>
                 <li>
                     <Link href="/">
-                        <a>Home</a>
+                        {/* <a id="link" className='link-item'>Home</a> */}
                     </Link>
                 </li>
                 <li>
                     <Link href="/about">
-                        <a>About</a>
+                        {/* <a id="link"  className='link-item'>About</a> */}
                     </Link>
                 </li>
                 <li>
                     <Link href="/blog">
-                        <a>Blog</a>
+                        {/* <a id="link" >Blog</a> */}
                     </Link>
                 </li>
             </ul>
