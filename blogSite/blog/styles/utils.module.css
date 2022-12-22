@@ -1,7 +1,7 @@
 /* 両端揃え */
 .spaceBetween {
     display: flex;
-    justyfy-content: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
