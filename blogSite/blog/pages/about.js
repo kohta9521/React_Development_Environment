@@ -1,6 +1,7 @@
 import Hero from '../components//hero'
 import Container from '../components/container'
 import PostBody from '../components/post-body'
+import Contact from '../components/contact'
 
 export default function About() {
     return (
@@ -27,6 +28,7 @@ export default function About() {
                 </p>                
             </PostBody>
 
+        <Contact />
         </Container>
 
     )
