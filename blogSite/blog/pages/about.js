@@ -1,8 +1,14 @@
 import Hero from '../components//hero'
+import Container from '../components/container'
 
 export default function About() {
-    return <Hero 
-        title="About"
-        subtitle="About development activities"
-    />
+    return (
+        <Container>
+            <Hero 
+                title="About"
+                subtitle="About development activities"
+            />            
+        </Container>
+
+    )
 }
