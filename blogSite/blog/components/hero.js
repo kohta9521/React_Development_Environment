@@ -1,4 +1,6 @@
 import styles from '../styles/hero.module.css'
+import Image from 'next/image'
+import eyecatch from 'images/about.jpg'
 
 export default function Hero({ title, subtitle, imageOn = false }) {
     return (
@@ -6,8 +8,12 @@ export default function Hero({ title, subtitle, imageOn = false }) {
             <div className={styles.text}>
                 <h1  className={styles.title}>{title}</h1>
                 <p className={styles.subtitle}>{subtitle}</p>
-                {imageOn && <figure> [ 画像 ] </figure>}
             </div>
+            {imageOn && (
+                <figure>
+                    <Image src={eyecatch} alt="" layout="responsive" />
+                </figure>
+            )}
         </div>
     )
 }
