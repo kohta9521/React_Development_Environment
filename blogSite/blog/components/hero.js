@@ -10,7 +10,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
                 <p className={styles.subtitle}>{subtitle}</p>
             </div>
             {imageOn && (
-                <figure>
+                <figure className={styles.image}>
                     <Image src={eyecatch} alt="" layout="responsive" />
                 </figure>
             )}
