@@ -11,6 +11,9 @@
 
     .sidebar {
         width: 240px;
+        position: fixed;
+        top: 40px;
+        align-self: flex-start;
     }
 
     .sidebar * {
