@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
         <Hero 
-        title="About"
+        title="CUBE"
         subtitle="アウトプットしていくサイト"
         />
     </>
