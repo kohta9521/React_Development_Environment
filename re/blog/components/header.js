@@ -1,3 +1,11 @@
+import Logo from '../components/logo'
+import Nav from '../components/nav'
+
 export default function header() {
-    return <headr>HEADER</headr>
+    return (
+        <>
+            <Logo />
+            <Nav />
+        </>
+    )
 }
