@@ -1,11 +1,17 @@
 import Logo from '../components/logo'
 import Nav from '../components/nav'
 
+
+// css
+import styles from '../styles/header.module.css'
+
 export default function Header() {
     return (
         <header>
-            <Logo />
-            <Nav />
+            <div className={styles.flexContainer}>
+                <Logo boxOn />
+                <Nav />                
+            </div>
         </header>
     )
 }
