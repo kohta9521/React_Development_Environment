@@ -1,0 +1,6 @@
+.flexContainer {
+    composes: sideBySide from '/utils.module.css'
+    gap: var(--sapce-md);
+    margin: var(--space-md) 0 var(--space-lg);
+}
+
