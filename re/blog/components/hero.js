@@ -8,7 +8,15 @@ export default function hero({ title, subtitle, imageOn = false }) {
             <div className={styles.text}>
                 <h1 className={styles.title}>{ title }</h1>
                 <p className={styles.subtitle}>{ subtitle }</p>
-                {imageOn && <figure> [画像] </figure>}
+                {imageOn && (
+                    <figure>
+                        <Image
+                            src={cube}
+                            slt=""
+                            layout="responsive"
+                        />
+                    </figure>
+                )}
             </div>            
         </div>
     )
