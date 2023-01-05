@@ -19,6 +19,9 @@
 
 .sidebar {
     text-align: right;
+    position: sticky;
+    top: 40px;
+    align-self: flex-center;
 }
 .sidebar :is(div ul) {
     width: fit-contact;
