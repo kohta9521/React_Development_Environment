@@ -5,10 +5,14 @@ import Contact from '../components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from '../components/two-column'
 import Image from 'next/image';
 import eyecatch from '../images/about.jpg'
+import Head from 'next/head'
 
 export default function About() {
     return (
         <Container>
+            <Head>
+                <title>アバウト</title>
+            </Head>
             <Hero title="ABOUT" subtitle="About development activities" />
 
             <figure>
