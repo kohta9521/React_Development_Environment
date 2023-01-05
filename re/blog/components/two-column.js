@@ -10,7 +10,7 @@ export function TwoColumn ({ children }) {
 
 export function TwoColumnMain({ children }) {
     return (
-        <div className={styles.sidebar}>
+        <div className={styles.main}>
             {children }
         </div>
     )
