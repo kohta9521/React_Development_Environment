@@ -1,6 +1,18 @@
 .flexContainer {
-    composes: sideBySide from '/utils.module.css'
-    gap: var(--sapce-md);
-    margin: var(--space-md) 0 var(--space-lg);
+    /* エラー シンタックスエラー発生 */
+    composes: sideBySide from './utils.module.css'
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: var(--sapce-md);
+    margin: var(--space-md) 0 var(--space-lg); */
 }
 
+@media (min-width: 768px) {
+    .main {
+        width: 768px;
+    }
+
+    .sidevbar {
+        width: 240px;
+    }
+}
