@@ -1,5 +1,8 @@
 .flexContainer {
-    composes: sideBySideCenter from '../styles/utils.module.css';
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
 }
 .text {
     padding-top: calc(var(--display) * 0.5);
@@ -14,4 +17,14 @@
 
 .subtitle {
     font-size: var(--small-heading2);
+}
+
+.image {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .iamge {
+        width: 50%;
+    }
 }
