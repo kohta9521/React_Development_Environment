@@ -16,3 +16,13 @@
         width: 240px;
     }
 }
+
+.sidebar {
+    text-align: right;
+}
+.sidebar :is(div ul) {
+    width: fit-contact;
+    margin-left: auto;
+    place-items: flex-end;
+    place-content: flex-end;
+}
