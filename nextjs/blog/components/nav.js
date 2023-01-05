@@ -6,19 +6,13 @@ export default function Nav() {
         <nav>
             <ul>
                 <li>
-                    <Link href="/">
-                        <a id="link" className='link-item'>Home</a>
-                    </Link>
+                    <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">
-                        <a id="link"  className='link-item'>About</a>
-                    </Link>
+                    <Link href="/about">About</Link>
                 </li>
                 <li>
-                    <Link href="/blog">
-                        <a id="link" >Blog</a>
-                    </Link>
+                    <Link href="/blog">Blog</Link>
                 </li>
             </ul>
         </nav>

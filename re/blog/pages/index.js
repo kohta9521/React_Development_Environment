@@ -1,3 +1,4 @@
+import Container from '../components/container.js'
 import { Inter } from '@next/font/google'
 
 // components import area
@@ -8,11 +9,14 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Hero 
+      <Container>
+        <Hero 
         title = "CUBE"
         subtitle="アウトプットしていくサイト"
         imageOn
-      />
+        />
+      </Container>
+
     </>
   )
 }
