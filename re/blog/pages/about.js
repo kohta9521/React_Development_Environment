@@ -5,14 +5,12 @@ import Contact from '../components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from '../components/two-column'
 import Image from 'next/image';
 import eyecatch from '../images/about.jpg'
-import Head from 'next/head'
+import Meta from '../components/meta'
 
 export default function About() {
     return (
         <Container>
-            <Head>
-                <title>アバウト</title>
-            </Head>
+            <Meta pageTitle="アバウト" />
             <Hero title="ABOUT" subtitle="About development activities" />
 
             <figure>
