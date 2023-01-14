@@ -16,7 +16,7 @@ export default function About() {
             <figure>
                 <Image
                     src={eyecatch}
-                    alt=""
+                    alt="aboutpageのトップ画像"
                     layout="responsive"
                     sizes="(min-width: 1152px) 1152px, 100vw" 
                     priority
