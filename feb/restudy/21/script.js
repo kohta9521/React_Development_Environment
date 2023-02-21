@@ -18,3 +18,10 @@ const func3 = (str) => {
 };
 
 console.log(func3("test complete"));
+
+// sample code
+
+const func5 = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(func5(10, 20));
