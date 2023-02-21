@@ -8,16 +8,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
+  <div class="input-area">
     <input placeholder="TODOを入力">
     <button>追加</button>
   </div>
 
-  <div>
-    <p>未完了のTODO</p>
+  <div class="incomplete-area">
+    <p class="title">未完了のTODO</p>
     <ul>
       <li>
-        <div>
+        <div class="list-row">
+          <p>
+            TODOです
+          </p>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+      </li>
+      <li>
+        <div class="list-row">
           <p>
             TODOです
           </p>
@@ -29,10 +38,10 @@
   </div>
 
 
-  <div>
-    <p>完了したTODO</p>
+  <div class="complete-area">
+    <p class="title">完了したTODO</p>
     <ul>
-      <div>
+      <div class="list-row">
         <li>TODOでした</li>
         <button>戻す</button>
       </div>
