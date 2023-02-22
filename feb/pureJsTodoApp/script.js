@@ -23,10 +23,21 @@ const onClickAdd = () => {
     // div以下を初期化
     addTarget.textContent = null;
 
-    // LIタグを生成
+    // liタグを生成
     const li = document.createElement("li");
     li.innerText = text;
     console.log(li);
+
+    // buttonタグを生成
+    const backButton = document.createElement("button");
+    backButton.innerText = "戻す";
+
+    // divタグの子要素に追加
+    addTarget.appendChild(li);
+    addTarget.appendChild(backButton);
+
+    // 完了リストに追加
+    document.getElementById("complete-list").appendChild(addTarget);
   });
 
   // buttonの削除から生成
