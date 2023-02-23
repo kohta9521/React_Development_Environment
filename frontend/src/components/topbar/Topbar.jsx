@@ -8,6 +8,7 @@ export default function Topbar() {
     <div className='topbarContainer'>
       {/* LEFT AREA */}
       <div className='topbarLeft'>
+        {/* <img src="/assets/logo.jpeg" className='logoImage' alt="学習院大学ロゴ画像" /> */}
         <span className='logo'>Gaxi</span>
       </div>
 
