@@ -28,6 +28,13 @@ export default function Rightbar() {
             <span className="rightbarUserName">Tanaka</span>
           </li>
         </ul>
+        <p className="promotionTitle">プロモーション広告</p>
+        <img src="/assets/promotion/promotion1.jpeg" className='rightbarPromotionImg' alt="" />
+        <p className="promotionName">ショッピング</p>
+        <img src="/assets/promotion/promotion2.jpeg" className='rightbarPromotionImg' alt="" />
+        <p className="promotionName">カーショップ</p>
+        <img src="/assets/promotion/promotion3.jpeg" className='rightbarPromotionImg' alt="" />
+        <p className="promotionName">学習院大学 学食</p>
       </div>
     </div>
   );
