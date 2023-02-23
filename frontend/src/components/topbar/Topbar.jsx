@@ -1,12 +1,14 @@
 import { Chat, Search, Notifications } from '@mui/icons-material';
 import React from 'react'
 
+import "./Topbar.css";
+
 export default function Topbar() {
   return (
     <div className='topbarContainer'>
       {/* LEFT AREA */}
       <div className='topbarLeft'>
-        <span className='logo'>G Port</span>
+        <span className='logo'>Gaxi</span>
       </div>
 
       {/* CENTER AREA */}
