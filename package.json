@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.0",
+    "redux": "^4.2.1",
     "ts-node": "^10.9.1"
   }
 }

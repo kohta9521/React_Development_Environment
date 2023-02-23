@@ -8,8 +8,7 @@ export const addTodo = (text) => ({
 });
 
 // TODOの完了・未完了を操作するときに使用するAction
-export const toggleTodo = id = > ({
-  type: 'TOGGLE_TODO',
-  id
+export const toggleTodo = (id) => ({
+  type: "TOGGLE_TODO",
+  id,
 });
-

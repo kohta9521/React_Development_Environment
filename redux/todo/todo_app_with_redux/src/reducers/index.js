@@ -14,7 +14,7 @@ const todoReducer = (state = [], action) => {
       return state.map(todo =>
         (todo.id === action.id)
           ? {...todo, completed: !todo.completed}
-      );
+      )
       default:
         return state
   }
