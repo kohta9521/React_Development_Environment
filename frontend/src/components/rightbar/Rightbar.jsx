@@ -33,7 +33,54 @@ export default function Rightbar({ profile }) {
     const ProfileRightbar = () => {
       return (
         <>
-        profile components
+        <h4 className="rightbarTitle">
+          ユーザー情報
+          <div className="rightbarInfo">
+            <div className="rightbarInfoTitle">
+              <span className="rightbarInfoKey">
+                出身 : 
+              </span>
+              <span className="rightbarInfoKey">
+                東京
+              </span>
+              <br/>
+              <span className="rightbarInfoKey">
+                学部学科 : 
+              </span>
+              <span className="rightbarInfoKey">
+                法学部 法学科
+              </span>
+              <br/>
+              <span className="rightbarInfoKey">
+                学年 : 
+              </span>
+              <span className="rightbarInfoKey">
+                1年生
+              </span>
+                <h4 className="rightbarTitle">
+                  あなたの友達
+                </h4>
+                <div className="rightbarFollowings">
+                  <div className="rightbarFollowing">
+                    <img src="/assets/person/2.jpeg" alt="" className="rightbarFollowingImg" />
+                    <span className="rightbarFollowingName">Sato</span>
+                  </div>
+                  <div className="rightbarFollowing">
+                    <img src="/assets/person/3.jpeg" alt="" className="rightbarFollowingImg" />
+                    <span className="rightbarFollowingName">Sato</span>
+                  </div>
+                  <div className="rightbarFollowing">
+                    <img src="/assets/person/4.jpeg" alt="" className="rightbarFollowingImg" />
+                    <span className="rightbarFollowingName">Sato</span>
+                  </div>
+                  <div className="rightbarFollowing">
+                    <img src="/assets/person/5.jpeg" alt="" className="rightbarFollowingImg" />
+                    <span className="rightbarFollowingName">Sato</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </h4>
         </>
       )
     }
