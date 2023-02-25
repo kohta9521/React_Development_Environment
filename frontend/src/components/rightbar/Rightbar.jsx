@@ -36,7 +36,7 @@ export default function Rightbar({ profile }) {
         <h4 className="rightbarTitle">
           ユーザー情報
           <div className="rightbarInfo">
-            <div className="rightbarInfoTitle">
+            <div className="rightbarInfoItem">
               <span className="rightbarInfoKey">
                 出身 : 
               </span>
@@ -65,7 +65,7 @@ export default function Rightbar({ profile }) {
                     <img src="/assets/person/2.jpeg" alt="" className="rightbarFollowingImg" />
                     <span className="rightbarFollowingName">Sato</span>
                   </div>
-                  <div className="rightbarFollowing">
+                  {/* <div className="rightbarFollowing">
                     <img src="/assets/person/3.jpeg" alt="" className="rightbarFollowingImg" />
                     <span className="rightbarFollowingName">Sato</span>
                   </div>
@@ -76,7 +76,7 @@ export default function Rightbar({ profile }) {
                   <div className="rightbarFollowing">
                     <img src="/assets/person/5.jpeg" alt="" className="rightbarFollowingImg" />
                     <span className="rightbarFollowingName">Sato</span>
-                  </div>
+                  </div> */}
                 </div>
             </div>
           </div>
