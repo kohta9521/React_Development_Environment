@@ -13,8 +13,22 @@ export default function Profile() {
     <Topbar />
     <div className='profile'>
       <Sidebar />
-      <Timeline />
-      <Rightbar />
+      <div className="profileRight">
+        <div className="profileRightTop">
+          <div className="profileCover">
+            <img src="/assets/post/3.jpeg" className='profileCoverImg' alt="" />
+            <img src="/assets/person/1.jpeg" className='profileUserImg' alt="" />
+            <div className="profileInfo">
+              <h4 className='profileInfoName'>Kohta</h4>
+              <span className='profileIngoDesc'>法学部 法学科 1年生</span>
+            </div>
+          </div>
+        </div>
+        <div className='profileRightBottom'>
+          <Timeline />
+          <Rightbar />                  
+        </div>
+      </div>
     </div>
   </>
   );
