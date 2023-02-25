@@ -5,3 +5,44 @@
 .profileRight {
   flex: 10.5;
 }
+
+.profileRightTop {
+}
+
+.profileCover {
+  height: 380px;
+  position: relative;
+}
+
+.profileCoverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileUserImg {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: auto;
+  top: 170px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileRightBottom {
+  display: flex;
+}
