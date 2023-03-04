@@ -1,0 +1,14 @@
+.content {
+  widht: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.bg-white {
+  bbackground-color: #fefefe;
+  color: #666666;
+}
+
+.bg-black {
+  background-color: #333333;
+  color: #eeeeee;
+}
