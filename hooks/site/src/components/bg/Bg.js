@@ -13,6 +13,9 @@ function Bg() {
       <div className={`content bg-${bgColor}`}>
         <p>The Background Color is {bgColor}.</p>
       </div>
+      <button onClick={() => setDark(!isDark)}>
+        Change to {isDark ? "white" : "black"}
+      </button>
     </>
   );
 }
