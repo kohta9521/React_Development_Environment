@@ -1,12 +1,12 @@
 import "./Child.css";
 
-import React from "react";
+import React, { Fragment } from "react";
 
 console.log(React);
 
 const Child = () => {
   return (
-    <Fragment key="">
+    <Fragment>
       <div className="component">
         <h3>Hello Component</h3>
       </div>
