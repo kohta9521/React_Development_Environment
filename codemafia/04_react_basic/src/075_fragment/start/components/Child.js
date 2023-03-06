@@ -2,9 +2,11 @@ import "./Child.css";
 
 import React from "react";
 
+console.log(React);
+
 const Child = () => {
   return (
-    <React.Fragment>
+    <Fragment key="">
       <div className="component">
         <h3>Hello Component</h3>
       </div>
@@ -15,7 +17,7 @@ const Child = () => {
         sapiente voluptate culpa consequatur voluptatem dolores quae labore est,
         odio sint.
       </p>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
