@@ -1,8 +1,10 @@
 const Hello = (props) => {
-  const name = "Tom";
+  console.log(props.name);
+  const desc = Reflect.getOwnPropertyDescriptor(props, "name");
+  console.log(desc);
   return (
     <div>
-      <h3>Hello {name}</h3>
+      <h3>Hello {props.name}</h3>
     </div>
   );
 };
