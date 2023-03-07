@@ -2,7 +2,7 @@ import React from "react";
 
 const Example = () => {
   const sample1 = <h1 className="greeting">Hello World</h1>;
-
+  console.log(sample1);
   // React.createElement("h1", {
   //   className: "greeting"
   // }, "Hello World");
