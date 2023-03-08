@@ -13,3 +13,9 @@ const fnArrow = (number) => {
 console.log(fnArrow(3));
 
 <div className="."></div>;
+
+const sample = (number) => number * 2;
+
+const fnArrowObj = (number) => {
+  result: number * 2;
+};
