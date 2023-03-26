@@ -4,8 +4,13 @@ const fn = (number) => {
 
 console.log(fn(2));
 
-const fnArroq = (number) => {
+const fnArrow = (number) => {
+  console.log(number);
   return number * 2;
 };
+
+const fnArrowObj = (number) => ({ result: number * 2 });
+
+console.log(fnArrowObj(2));
 
 console.log(fnArroq(2));
