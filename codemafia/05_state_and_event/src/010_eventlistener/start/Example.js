@@ -1,5 +1,10 @@
 const Example = () => {
-  return <></>;
+  return (
+    <>
+      <button>クリックしてね</button>
+      <button>クリックしてね</button>
+    </>
+  );
 };
 
 export default Example;
