@@ -10,10 +10,6 @@ const Child = () => {
   const fn = () => {
     const a = 1 === 1;
   };
-
-  if (true) {
-    ("helo");
-  }
   console.log(1 === 1);
   return (
     <div className="component">
